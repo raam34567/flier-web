@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #003366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.logo-section {
+    flex-basis: 20%;
+}
+
+.header-text {
+    flex-basis: 80%;
+    text-align: left;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.program-title {
+    font-size: 28px;
+    color: #007BFF; /* Blue color to highlight Diploma in Information Technology */
+    font-weight: bold;
+}
+
+.program-code {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Main Content Styling */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding:
